@@ -1,110 +1,205 @@
-<svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop offset='0' stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop offset='0' stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>
+<!-- Background SVG with custom colors -->
+<svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <g opacity='0.75' filter='url(#filter0_f_39_143)'>
+    <circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/>
+  </g>
+  <g opacity='0.65' filter='url(#filter1_f_39_143)'>
+    <circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/>
+  </g>
+  <defs>
+    <filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+      <feFlood flood-opacity='0' result='BackgroundImageFix'/>
+      <feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/>
+      <feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/>
+    </filter>
+    <filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+      <feFlood flood-opacity='0' result='BackgroundImageFix'/>
+      <feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/>
+      <feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/>
+    </filter>
+    <linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'>
+      <stop offset='0' stop-color="var(--bttm-left-blur-1)"/>
+      <stop offset='1' stop-color="var(--bttm-left-blur-2)"/>
+    </linearGradient>
+    <linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'>
+      <stop offset='0' stop-color="var(--top-right-blur-1)"/>
+      <stop offset='1' stop-color="var(--top-right-blur-2)"/>
+    </linearGradient>
+  </defs>
+</svg>
 
-<!-- Navigation -->
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo-text">INTSENTRY</div>
-    <ul class="nav-menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+<!-- Bootstrap Navbar with Custom Styling -->
+<nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand d-flex align-items-center" href="#home">
+      <img src="../icon.webp" alt="Intsentry Logo" height="40" class="me-2 logo-image" />
+      <span class="fw-bold fs-4">INTSENTRY</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 
-<div id="home">
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <div class="badge">Enterprise Software Solutions</div>
-      <h1 class="hero-title">
-        <span class="company-name">INTSENTRY</span>
-        <span class="tagline">Intelligence. Security. Sentry.</span>
-      </h1>
-      <p class="hero-subtitle">
-        Transforming ideas into powerful software solutions with cutting-edge technology and intelligent design
-      </p>
-      <div class="cta-buttons">
-        <a href="#contact" class="btn btn-primary">Start Your Project</a>
-        <a href="#services" class="btn btn-secondary">Our Services</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <h2 class="section-title">What We Do</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">💻</div>
-        <h3>Custom Software Development</h3>
-        <p>Tailored solutions built with modern technologies to meet your unique business needs</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🌐</div>
-        <h3>Web Applications</h3>
-        <p>Scalable, responsive web applications that deliver exceptional user experiences</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">📱</div>
-        <h3>Mobile Development</h3>
-        <p>Native and cross-platform mobile apps that engage users on any device</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🔒</div>
-        <h3>Security Solutions</h3>
-        <p>Enterprise-grade security implementations to protect your digital assets</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">☁️</div>
-        <h3>Cloud Architecture</h3>
-        <p>Scalable cloud infrastructure designed for performance and reliability</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🤖</div>
-        <h3>AI & Machine Learning</h3>
-        <p>Intelligent systems that learn and adapt to drive business innovation</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="about-content">
-      <h2 class="section-title">Why Choose Intsentry</h2>
-      <div class="about-grid">
-        <div class="about-card">
-          <h3>🎯 Client-Focused</h3>
-          <p>Your success is our mission. We work closely with you from concept to deployment.</p>
-        </div>
-        <div class="about-card">
-          <h3>⚡ Cutting-Edge Tech</h3>
-          <p>We leverage the latest technologies to build future-proof solutions.</p>
-        </div>
-        <div class="about-card">
-          <h3>🏆 Proven Expertise</h3>
-          <p>Our team brings years of experience across diverse industries and technologies.</p>
-        </div>
-        <div class="about-card">
-          <h3>🔄 Agile Approach</h3>
-          <p>Flexible methodologies that adapt to your changing requirements.</p>
+<!-- Hero Section - Bootstrap Grid with Custom Colors -->
+<section id="home" class="bg-transparent text-white min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center">
+        <span class="badge mb-4 px-4 py-2 fs-6 text-uppercase">Enterprise Software Solutions</span>
+        <h1 class="display-1 fw-bold mb-3 text-gradient-primary">INTSENTRY</h1>
+        <p class="h4 mb-4 text-uppercase letter-spacing-wide" style="color: var(--color-text-muted);">Intelligence. Security. Sentry.</p>
+        <p class="lead mb-5 px-lg-5">
+          Transforming ideas into powerful software solutions with cutting-edge technology and intelligent design
+        </p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="#contact" class="btn btn-primary btn-lg px-5 py-3">Start Your Project</a>
+          <a href="#services" class="btn btn-outline-light btn-lg px-5 py-3">Our Services</a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2 class="section-title">Let's Build Something Great</h2>
-    <p class="contact-subtitle">Ready to transform your vision into reality?</p>
-    <div class="contact-info">
-      <a href="mailto:hello@intsentry.com" class="contact-link">hello@intsentry.com</a>
+<!-- Services Section - Bootstrap Grid with Custom Cards -->
+<section id="services" class="py-5 bg-transparent">
+  <div class="container py-5">
+    <h2 class="display-4 fw-bold text-center mb-5 text-gradient-primary">What We Do</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 hover-card">
+          <div class="card-body p-4">
+            <div class="fs-1 mb-3">💻</div>
+            <h3 class="h5 fw-bold mb-3">Custom Software Development</h3>
+            <p class="mb-0">Tailored solutions built with modern technologies to meet your unique business needs</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 hover-card">
+          <div class="card-body p-4">
+            <div class="fs-1 mb-3">🌐</div>
+            <h3 class="h5 fw-bold mb-3">Web Applications</h3>
+            <p class="mb-0">Scalable, responsive web applications that deliver exceptional user experiences</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 hover-card">
+          <div class="card-body p-4">
+            <div class="fs-1 mb-3">📱</div>
+            <h3 class="h5 fw-bold mb-3">Mobile Development</h3>
+            <p class="mb-0">Native and cross-platform mobile apps that engage users on any device</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 hover-card">
+          <div class="card-body p-4">
+            <div class="fs-1 mb-3">🔒</div>
+            <h3 class="h5 fw-bold mb-3">Security Solutions</h3>
+            <p class="mb-0">Enterprise-grade security implementations to protect your digital assets</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 hover-card">
+          <div class="card-body p-4">
+            <div class="fs-1 mb-3">☁️</div>
+            <h3 class="h5 fw-bold mb-3">Cloud Architecture</h3>
+            <p class="mb-0">Scalable cloud infrastructure designed for performance and reliability</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 hover-card">
+          <div class="card-body p-4">
+            <div class="fs-1 mb-3">🤖</div>
+            <h3 class="h5 fw-bold mb-3">AI & Machine Learning</h3>
+            <p class="mb-0">Intelligent systems that learn and adapt to drive business innovation</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Intsentry. All rights reserved.</p>
-  </footer>
-</div>
+<!-- About Section - Bootstrap Grid with Custom Cards -->
+<section id="about" class="py-5 bg-transparent text-white">
+  <div class="container py-5">
+    <h2 class="display-4 fw-bold text-center mb-5 text-gradient-primary">Why Choose Intsentry</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-transparent h-100 hover-card-dark">
+          <div class="card-body p-4">
+            <h3 class="h5 fw-bold mb-3">🎯 Client-Focused</h3>
+            <p class="text-white-50 mb-0">Your success is our mission. We work closely with you from concept to deployment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-transparent h-100 hover-card-dark">
+          <div class="card-body p-4">
+            <h3 class="h5 fw-bold mb-3">⚡ Cutting-Edge Tech</h3>
+            <p class="text-white-50 mb-0">We leverage the latest technologies to build future-proof solutions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-transparent h-100 hover-card-dark">
+          <div class="card-body p-4">
+            <h3 class="h5 fw-bold mb-3">🏆 Proven Expertise</h3>
+            <p class="text-white-50 mb-0">Our team brings years of experience across diverse industries and technologies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-transparent h-100 hover-card-dark">
+          <div class="card-body p-4">
+            <h3 class="h5 fw-bold mb-3">🔄 Agile Approach</h3>
+            <p class="text-white-50 mb-0">Flexible methodologies that adapt to your changing requirements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section - Bootstrap Grid -->
+<section id="contact" class="py-5 bg-transparent">
+  <div class="container py-5">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8">
+        <h2 class="display-4 fw-bold mb-4 text-gradient-primary">Let's Build Something Great</h2>
+        <p class="lead mb-4">Ready to transform your vision into reality?</p>
+        <a href="mailto:hello@intsentry.com" class="btn btn-primary btn-lg fs-5 px-5 py-3">
+          hello@intsentry.com
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer - Bootstrap -->
+<footer class="bg-transparent text-white py-4">
+  <div class="container text-center">
+    <p class="mb-0 text-white-50">&copy; 2025 Intsentry. All rights reserved.</p>
+  </div>
+</footer>
